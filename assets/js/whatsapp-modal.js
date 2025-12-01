@@ -71,6 +71,15 @@ if (whatsappBtn) {
     });
 }
 
+// Footer WhatsApp button
+const footerWhatsappBtn = document.getElementById("footerWhatsappBtn");
+if (footerWhatsappBtn) {
+    footerWhatsappBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        openWhatsAppModal();
+    });
+}
+
 if (whatsappContinueBtn) {
     whatsappContinueBtn.addEventListener("click", function () {
         openWhatsApp();
