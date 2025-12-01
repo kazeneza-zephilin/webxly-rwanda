@@ -391,6 +391,11 @@ body {
     color: var(--white);
 }
 
+.navbar .logo .wexly,
+.navbar .logo .rwanda {
+    color: var(--white);
+}
+
 .navbar .wrapper {
     display: flex;
     align-items: center;
