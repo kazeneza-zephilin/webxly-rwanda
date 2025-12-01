@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact Us - Wexly</title>
+
+        <!-- 
+    - favicon
+  -->
+        <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+        <!-- 
+    - custom css link
+  -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <!-- 
+    - google font link
+  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <!-- 
+    - #HEADER
+  -->
+
+        <header class="header" data-header>
+            <div class="container">
+                <a href="index.html" class="logo">Wexly</a>
+
+                <nav class="navbar" data-navbar>
+                    <div class="wrapper">
+                        <a href="index.html" class="logo">Wexly</a>
+                        <button
+                            class="nav-close-btn"
+                            aria-label="close menu"
+                            data-nav-toggler
+                        >
+                            <ion-icon
+                                name="close-outline"
+                                aria-hidden="true"
+                            ></ion-icon>
+                        </button>
+                    </div>
+
+                    <ul class="navbar-list">
+                        <li>
+                            <a
+                                href="index.html#home"
+                                class="navbar-link"
+                                data-nav-link
+                                >Home</a
+                            >
+                        </li>
+
+                        <li>
+                            <a
+                                href="index.html#about"
+                                class="navbar-link"
+                                data-nav-link
+                                >About</a
+                            >
+                        </li>
+
+                        <li>
+                            <a
+                                href="index.html#services"
+                                class="navbar-link"
+                                data-nav-link
+                                >Services</a
+                            >
+                        </li>
+
+                        <li>
+                            <a
+                                href="index.html#features"
+                                class="navbar-link"
+                                data-nav-link
+                                >Features</a
+                            >
+                        </li>
+
+                        <li>
+                            <a
+                                href="index.html#showcase"
+                                class="navbar-link"
+                                data-nav-link
+                                >Portfolio</a
+                            >
+                        </li>
+
+                        <li>
+                            <a
+                                href="contact.html"
+                                class="navbar-link"
+                                data-nav-link
+                                >Contact Us</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+
+                <button
+                    class="nav-open-btn"
+                    aria-label="open menu"
+                    data-nav-toggler
+                >
+                    <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <a href="contact.html" class="btn-outline">Lets talk</a>
+
+                <div class="overlay" data-nav-toggler data-overlay></div>
+            </div>
+        </header>
+
+        <main>
+            <article>
+                <!-- 
+        - #CONTACT
+      -->
+
+                <section
+                    class="section contact"
+                    id="contact"
+                    aria-label="contact"
+                >
+                    <div class="container">
+                        <p class="section-subtitle text-center">
+                            -Get In Touch-
+                        </p>
+
+                        <h2 class="h2 section-title text-center">Contact Us</h2>
+
+                        <p class="section-text text-center">
+                            Have a project in mind? We'd love to hear from you.
+                            Send us a message and we'll respond as soon as
+                            possible.
+                        </p>
+
+                        <div class="contact-wrapper">
+                            <div class="contact-info">
+                                <h3 class="h3">Contact Information</h3>
+
+                                <ul class="contact-list">
+                                    <li class="contact-item">
+                                        <div class="contact-icon">
+                                            <ion-icon
+                                                name="location"
+                                                aria-hidden="true"
+                                            ></ion-icon>
+                                        </div>
+
+                                        <div>
+                                            <h4 class="h4">Address</h4>
+                                            <address class="contact-text">
+                                                Kigali - Rwanda
+                                            </address>
+                                        </div>
+                                    </li>
+
+                                    <li class="contact-item">
+                                        <div class="contact-icon">
+                                            <ion-icon
+                                                name="call"
+                                                aria-hidden="true"
+                                            ></ion-icon>
+                                        </div>
+
+                                        <div>
+                                            <h4 class="h4">Phone</h4>
+                                            <a
+                                                href="#"
+                                                class="contact-text"
+                                                >+250 790 005 933</a
+                                            >
+                                        </div>
+                                    </li>
+
+                                    <li class="contact-item">
+                                        <div class="contact-icon">
+                                            <ion-icon
+                                                name="mail"
+                                                aria-hidden="true"
+                                            ></ion-icon>
+                                        </div>
+
+                                        <div>
+                                            <h4 class="h4">Email</h4>
+                                            <a
+                                                href="#"
+                                                class="contact-text"
+                                                >infowexly@gmail.com</a
+                                            >
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <form
+                                action="https://formspree.io/f/mangrjjn"
+                                method="POST"
+                                class="contact-form"
+                                id="contactForm"
+                            >
+                                <div class="input-wrapper">
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        id="name"
+                                        placeholder="Your Name"
+                                        required
+                                        class="input-field"
+                                    />
+
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        placeholder="your.email@example.com"
+                                        required
+                                        class="input-field"
+                                    />
+                                </div>
+
+                                <select
+                                    name="category"
+                                    id="category"
+                                    required
+                                    class="input-field"
+                                >
+                                    <option value="">
+                                        Select Project Category
+                                    </option>
+                                    <option value="Web Development">
+                                        Web Development
+                                    </option>
+                                    <option value="Mobile App Development">
+                                        Mobile App Development
+                                    </option>
+                                    <option value="UI/UX Design">
+                                        UI/UX Design
+                                    </option>
+                                    <option value="Brand Identity Design">
+                                        Brand Identity Design
+                                    </option>
+                                    <option value="E-Commerce Solutions">
+                                        E-Commerce Solutions
+                                    </option>
+                                    <option value="Graphic Design">
+                                        Graphic Design
+                                    </option>
+                                    <option value="Other">Other</option>
+                                </select>
+
+                                <input
+                                    type="text"
+                                    name="subject"
+                                    id="subject"
+                                    placeholder="Subject"
+                                    value="Inquiry about your services"
+                                    required
+                                    class="input-field"
+                                />
+
+                                <textarea
+                                    name="message"
+                                    id="message"
+                                    placeholder="Your Message"
+                                    required
+                                    class="input-field"
+                                    rows="6"
+                                >
+Hello Webxly Team,
+
+I came across your agency and I'm interested in your web development services. Could you please provide more information about your packages, pricing, and timelines?
+
+Looking forward to your response.</textarea
+                                >
+
+                                <!-- Hidden field for Formspree email subject -->
+                                <input
+                                    type="hidden"
+                                    name="_subject"
+                                    id="_subject"
+                                    value="New Contact Form Submission"
+                                />
+
+                                <!-- Honeypot field for spam protection -->
+                                <input
+                                    type="text"
+                                    name="_gotcha"
+                                    style="display: none"
+                                    tabindex="-1"
+                                    autocomplete="off"
+                                />
+
+                                <button type="submit" class="btn btn-primary">
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <!-- 
+    - #FOOTER
+  -->
+
+        <footer class="footer">
+            <div class="footer-top section">
+                <div class="container">
+                    <div class="footer-brand">
+                        <a href="index.html" class="logo">Wexly</a>
+
+                        <p class="footer-text">
+                            Lorem ipsum dolor sit amet consecte tur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore.
+                        </p>
+
+                        <form action="" class="newsletter-form">
+                            <input
+                                type="email"
+                                name="email_address"
+                                placeholder="Enter your email"
+                                required
+                                class="email-field"
+                            />
+
+                            <button type="submit" class="form-btn">
+                                <ion-icon
+                                    name="paper-plane"
+                                    aria-hidden="true"
+                                ></ion-icon>
+                            </button>
+                        </form>
+                    </div>
+
+                    <ul class="footer-list">
+                        <li>
+                            <p class="footer-list-title">Our Services</p>
+                        </li>
+
+                        <li>
+                            <a href="index.html#services" class="footer-link"
+                                >Strategy & Research</a
+                            >
+                        </li>
+
+                        <li>
+                            <a href="index.html#services" class="footer-link"
+                                >Web Development</a
+                            >
+                        </li>
+
+                        <li>
+                            <a href="index.html#services" class="footer-link"
+                                >Web Solution</a
+                            >
+                        </li>
+
+                        <li>
+                            <a href="index.html#services" class="footer-link"
+                                >Digital Merketing</a
+                            >
+                        </li>
+
+                        <li>
+                            <a href="index.html#services" class="footer-link"
+                                >App Design</a
+                            >
+                        </li>
+
+                        <li>
+                            <a href="index.html#services" class="footer-link"
+                                >App Development</a
+                            >
+                        </li>
+                    </ul>
+
+                    <ul class="footer-list">
+                        <li>
+                            <p class="footer-list-title">Company</p>
+                        </li>
+
+                        <li>
+                            <a href="index.html#about" class="footer-link"
+                                >About Company</a
+                            >
+                        </li>
+
+                        <li>
+                            <a href="index.html#services" class="footer-link"
+                                >Our Services</a
+                            >
+                        </li>
+
+                        <li>
+                            <a href="project-details.html" class="footer-link"
+                                >Our Portfolio</a
+                            >
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Our Blog</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link">Latest News</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html" class="footer-link"
+                                >Contact Us</a
+                            >
+                        </li>
+                    </ul>
+
+                    <ul class="footer-list">
+                        <li>
+                            <p class="footer-list-title">Contact Us</p>
+                        </li>
+
+                        <li class="footer-item">
+                            <ion-icon
+                                name="location"
+                                aria-hidden="true"
+                            ></ion-icon>
+
+                            <address class="contact-link address">
+                                Kigali Rwanda
+                            </address>
+                        </li>
+
+                        <li class="footer-item">
+                            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+                            <a href="tel:#" class="contact-link"
+                                >+250 790 005 933</a
+                            >
+                        </li>
+
+                        <li class="footer-item">
+                            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+                            <a
+                                href="#"
+                                class="contact-link"
+                                >infowexly@gmail.com</a
+                            >
+                        </li>
+
+                        <li class="footer-item">
+                            <ul class="social-list">
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon
+                                            name="logo-facebook"
+                                        ></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon
+                                            name="logo-twitter"
+                                        ></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon
+                                            name="logo-instagram"
+                                        ></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon
+                                            name="logo-pinterest"
+                                        ></ion-icon>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <p class="copyright">
+                        &copy; 2025 Wexly | All Rights Reserved by
+                        <a href="#" class="copyright-link">wexly</a>
+                    </p>
+
+                    <ul class="footer-bottom-list">
+                        <li>
+                            <a href="#" class="footer-bottom-link"
+                                >Privacy Policy</a
+                            >
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-bottom-link"
+                                >Terms of Use</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <!-- 
+    - WhatsApp Category Modal
+  -->
+        <div class="whatsapp-modal" id="whatsappModal">
+            <div class="modal-overlay" data-modal-close></div>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="h3 modal-title">Select Project Category</h3>
+                    <button
+                        class="modal-close-btn"
+                        data-modal-close
+                        aria-label="Close modal"
+                    >
+                        <ion-icon
+                            name="close-outline"
+                            aria-hidden="true"
+                        ></ion-icon>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="modal-text">
+                        Please select a project category before contacting us
+                        via WhatsApp.
+                    </p>
+                    <select
+                        name="whatsapp-category"
+                        id="whatsappCategory"
+                        class="input-field"
+                        required
+                    >
+                        <option value="">Select Project Category</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Mobile App Development">
+                            Mobile App Development
+                        </option>
+                        <option value="UI/UX Design">UI/UX Design</option>
+                        <option value="Brand Identity Design">
+                            Brand Identity Design
+                        </option>
+                        <option value="E-Commerce Solutions">
+                            E-Commerce Solutions
+                        </option>
+                        <option value="Graphic Design">Graphic Design</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-modal-close
+                    >
+                        Cancel
+                    </button>
+                    <button
+                        type="button"
+                        class="btn btn-primary"
+                        id="whatsappContinueBtn"
+                    >
+                        Continue to WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+    - WhatsApp Button
+  -->
+        <a
+            href="#"
+            class="whatsapp-btn"
+            id="whatsappBtn"
+            aria-label="Contact us on WhatsApp"
+        >
+            <ion-icon name="logo-whatsapp" aria-hidden="true"></ion-icon>
+        </a>
+
+        <!-- 
+    - custom js link
+  -->
+        <script src="./assets/js/script.js"></script>
+        <script src="./assets/js/contact.js"></script>
+        <script src="./assets/js/whatsapp-modal.js"></script>
+
+        <!-- 
+    - ionicon link
+  -->
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>
