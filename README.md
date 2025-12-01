@@ -8,27 +8,27 @@ Wexly Rwanda is a digital agency specializing in building affordable, modern web
 
 ## Features
 
-- Responsive design
-- Modern UI with Teal Blue (#14A3A3) and Midnight Navy (#1A2733) color scheme
-- Portfolio showcase with real projects
-- Service offerings display
-- Contact forms and information
-- FAQ section
+-   Responsive design
+-   Modern UI with Teal Blue (#14A3A3) and Midnight Navy (#1A2733) color scheme
+-   Portfolio showcase with real projects
+-   Service offerings display
+-   Contact forms and information
+-   FAQ section
 
 ## Services
 
-- Web Development
-- Mobile App Development
-- UI/UX Design
-- Graphic Design
-- Professional Content Writing
+-   Web Development
+-   Mobile App Development
+-   UI/UX Design
+-   Graphic Design
+-   Professional Content Writing
 
 ## Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript
-- Ionicons for icons
+-   HTML5
+-   CSS3
+-   JavaScript
+-   Ionicons for icons
 
 ## Getting Started
 
@@ -36,9 +36,9 @@ Simply open `index.html` in your browser to view the website locally.
 
 ## Contact
 
-- **Phone:** +250 790005933
-- **Email:** infowexly@gmail.com
-- **Location:** Kigali, Rwanda
+-   **Phone:** +250 790005933
+-   **Email:** infowexly@gmail.com
+-   **Location:** Kigali, Rwanda
 
 ## License
 
