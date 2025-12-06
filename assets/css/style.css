@@ -1443,6 +1443,30 @@ textarea.input-field {
 \*-----------------------------------*/
 
 /**
+ * responsive for mobile and tablet (max-width: 768px)
+ */
+
+@media (max-width: 768px) {
+    /* Footer - Two column layout for mobile */
+    .footer-top .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    /* Center social icons */
+    .footer-list:last-child {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    .footer-list:last-child .social-list {
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+
+/**
  * responsive for large than 575px screen
  */
 

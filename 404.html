@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // GitHub Pages 404 redirect handler for clean URLs
+        (function() {
+            var path = window.location.pathname;
+            var search = window.location.search;
+            var hash = window.location.hash;
+            
+            // List of valid pages (without .html extension)
+            var validPages = ['contact', 'project-details'];
+            
+            // Check if current path matches a valid page
+            var pageName = path.replace(/^\/.*?\//, '').replace(/\/$/, '');
+            
+            if (validPages.indexOf(pageName) !== -1) {
+                // Redirect to the .html version
+                var newLocation = window.location.origin + path + '.html' + search + hash;
+                window.location.replace(newLocation);
+            } else {
+                // Invalid page - redirect to home
+                window.location.replace(window.location.origin + '/');
+            }
+        })();
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
