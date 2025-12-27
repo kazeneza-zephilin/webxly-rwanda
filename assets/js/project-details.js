@@ -144,6 +144,52 @@ const projects = {
             "./assets/images/delivery-app-5.png",
         ],
     },
+    4: {
+        title: "ASPIRE Design Lab - Architecture Studio",
+        subtitle:
+            "A socially-conscious architecture practice grounded in research, advocacy, and community-centered design.",
+        heroImage: "./assets/images/asp-1.png",
+        overview: [
+            "We believe architecture is a social art form that requires active cultural engagement and community participation. At ASPIRE Design Lab, we are grounded in listening deeply to the energy of the communities we serve, allowing their voices to guide and shape every design decision.",
+            "With a mission of nurturing architecture as a social and environmental art form, ASPIRE Design Lab is grounded in research, advocacy, and action. We are committed to studying and steadying architecture for both society and the planet, framing our work in a practice of deep listening that allows the voices of the communities we serve to guide and shape every design decision.",
+            "ASPIRE Design Lab is a factory of architectural ideas and decisions, where design becomes a process of inquiry, collaboration, and co-creation. We seek to craft spaces that go beyond solving functional needs — spaces that celebrate identity, foster belonging, and embody cultural and environmental consciousness.",
+            "Our mission extends beyond building forms; it is about shaping environments that respond to people's lived experiences, their aspirations, and their relationship with place. Through this, we aim to inspire an architecture that is grounded in empathy, driven by purpose, and dedicated to the shared well-being of both people and planet.",
+        ],
+        features: [
+            "Community-centered design approach",
+            "Deep listening and cultural engagement",
+            "Sustainable and environmentally conscious practices",
+            "Research-driven architectural solutions",
+            "Identity-celebrating spatial design",
+            "Co-creation with communities",
+            "Empathy-driven design process",
+            "Social and environmental advocacy",
+        ],
+        scope: [
+            "Architectural Design",
+            "Community Engagement",
+            "Research & Planning",
+            "Sustainable Design",
+            "Cultural Consultation",
+            "Project Management",
+        ],
+        tools: [
+            "AutoCAD",
+            "Revit",
+            "SketchUp",
+            "Rhino",
+            "V-Ray",
+            "Adobe Creative Suite",
+            "Enscape",
+            "Lumion",
+        ],
+        visuals: [
+            "./assets/images/asp-1.png",
+            "./assets/images/asp-2.png",
+            "./assets/images/asp-3.png",
+            "./assets/images/asp-4.png",
+        ],
+    },
 };
 
 /**
