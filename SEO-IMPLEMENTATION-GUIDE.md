@@ -5,13 +5,13 @@
 ### 1. **Sitemap.xml** ✓
 - Created XML sitemap with all pages
 - Includes priority rankings and update frequencies
-- Located at: `https://kazeneza-zephilin.github.io/webxly-rwanda/sitemap.xml`
+- Located at: `https://wexlyrwanda.dev/sitemap.xml`
 
 ### 2. **Robots.txt** ✓
 - Guides search engine crawlers
 - References sitemap location
 - Allows all search engines to index the site
-- Located at: `https://kazeneza-zephilin.github.io/webxly-rwanda/robots.txt`
+- Located at: `https://wexlyrwanda.dev/robots.txt`
 
 ### 3. **Structured Data (JSON-LD)** ✓
 Added rich structured data to all pages:
@@ -51,7 +51,7 @@ All pages now include:
 1. **Submit to Google Search Console**
    - Go to: https://search.google.com/search-console
    - Add your website
-   - Submit your sitemap: `https://kazeneza-zephilin.github.io/webxly-rwanda/sitemap.xml`
+   - Submit your sitemap: `https://wexlyrwanda.dev/sitemap.xml`
    - Request indexing for all pages
 
 2. **Submit to Bing Webmaster Tools**
@@ -221,8 +221,8 @@ All pages now include:
 
 ## 📞 Technical Details
 
-**Sitemap URL:** https://kazeneza-zephilin.github.io/webxly-rwanda/sitemap.xml
-**Robots.txt URL:** https://kazeneza-zephilin.github.io/webxly-rwanda/robots.txt
+**Sitemap URL:** https://wexlyrwanda.dev/sitemap.xml
+**Robots.txt URL:** https://wexlyrwanda.dev/robots.txt
 
 **Structured Data Types Added:**
 - LocalBusiness

@@ -41,10 +41,10 @@ git commit -m "Update with clean URLs"
 git push origin main
 ```
 
-The site will be accessible at: `https://kazeneza-zephilin.github.io/webxly-rwanda/`
+The site is accessible at: `https://wexlyrwanda.dev/`
 
 Users can navigate to:
-- `https://kazeneza-zephilin.github.io/webxly-rwanda/contact`
-- `https://kazeneza-zephilin.github.io/webxly-rwanda/project-details?project=1`
+- `https://wexlyrwanda.dev/contact`
+- `https://wexlyrwanda.dev/project-details?project=1`
 
 Without needing `.html` in the URL!

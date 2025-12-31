@@ -6,7 +6,7 @@
 
     <!-- Homepage -->
     <url>
-        <loc>https://kazeneza-zephilin.github.io/webxly-rwanda/</loc>
+        <loc>https://wexlyrwanda.dev/</loc>
         <lastmod>2025-12-31</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -14,7 +14,7 @@
 
     <!-- Contact Page -->
     <url>
-        <loc>https://kazeneza-zephilin.github.io/webxly-rwanda/contact.html</loc>
+        <loc>https://wexlyrwanda.dev/contact.html</loc>
         <lastmod>2025-12-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -22,7 +22,7 @@
 
     <!-- Project Details Page -->
     <url>
-        <loc>https://kazeneza-zephilin.github.io/webxly-rwanda/project-details.html</loc>
+        <loc>https://wexlyrwanda.dev/project-details.html</loc>
         <lastmod>2025-12-31</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>

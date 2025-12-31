@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://kazeneza-zephilin.github.io/webxly-rwanda/sitemap.xml
+Sitemap: https://wexlyrwanda.dev/sitemap.xml
 
 # Crawl delay (optional - helps prevent server overload)
 Crawl-delay: 1
